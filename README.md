@@ -38,6 +38,11 @@ Working Mechanism:
 The servo motor in this project is controlled wirelessly using an ESP32 microcontroller connected to a Wi-Fi network. The ESP32 hosts a web server that serves a web page with a slider interface to the user. When the user accesses this web page through a browser on any device connected to the same Wi-Fi network, they can move the slider to set the servo motor's position. This change in slider value triggers a JavaScript function that sends an HTTP request to the ESP32, passing the new servo position as a parameter. The ESP32 receives this request and processes it in the handleSetServo() function, which reads the position value, validates it, and then adjusts the servo motor accordingly using the myservo.write(position) command. By hosting the web interface, the ESP32 allows for remote control of the servo motor wirelessly, enabling the user to interact with the hardware from any device with network access.
 
 
+The demonstration of this mechanism can be found in this youtube video:
+
+https://www.youtube.com/watch?v=IRz7QAWulaU
+
+
 
 
 
