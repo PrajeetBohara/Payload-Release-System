@@ -2,10 +2,9 @@
 #include <ESP32Servo.h>
 #include <WebServer.h>
 
-const char* ssid = "Machi*ne";
-// "Machi*ne";
-const char* password = "granite-134-264";
-// "granite-134-264";
+const char* ssid = "your wifi name here";
+const char* password = "your wifi password here";
+
 
 Servo myservo; 
 int position = 0;    
