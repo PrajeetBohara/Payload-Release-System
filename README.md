@@ -17,16 +17,19 @@ For regular Esp32 Users:
 
 
   Servo Types:
+
   You can use any kind of servos as per your need.
   I tested with these two servos, sg90 and MG996R
  ![20240907_005543486_iOS](https://github.com/user-attachments/assets/07b70fb5-1ed6-4252-b21d-158f8d1a8e8f)
 
 Hook:
+
 I made this custom hook and attached a velcro. The other side of velcro can to attached to the drone or other parts. If the payload is heavy and you are using the big servo, the velcro can be replaced with hooks depends on your need.
 ![20240907_005604495_iOS](https://github.com/user-attachments/assets/62d6101d-ca7f-457e-9cb1-ef2c6e1cc8af)
 
 
 Esp32:
+
 Make sure to install esp32 servo library and use it while working with the esp32 wifi and servos.
 
 
