@@ -8,7 +8,11 @@ This is a prototype payload release system that I built using esp32 and sg90 ser
                 whatever works for you
 - Library= Esp32servo by kevin Harrington
 - Baudrate = 115200
+- Here is the pinout for the Heltec LoRa V3 Module for reference
+  <img width="529" alt="LoRA v3 pin layout" src="https://github.com/user-attachments/assets/6bbee77c-91fa-4b76-a147-01c8d4fec5b6">
+
 
   Servo Types:
   You can use any kind of servos as per your need.
-  I tested with these two servos, sg90 and MG996R <img width="529" alt="LoRA v3 pin layout" src="https://github.com/user-attachments/assets/6bbee77c-91fa-4b76-a147-01c8d4fec5b6">
+  I tested with these two servos, sg90 and MG996R
+  ![20240907_005543486_iOS](https://github.com/user-attachments/assets/1c985b1c-6e94-4086-867a-19d592b1eb32)
