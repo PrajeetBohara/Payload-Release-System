@@ -2,7 +2,7 @@
 #include <ESP32Servo.h>
 #include <WebServer.h>
 
-const char* ssid = "your wifi name here";
+const char* ssid = "your wifi name here"; #within the apostrophe
 const char* password = "your wifi password here";
 
 
@@ -79,7 +79,7 @@ void setup() {
   server.on("/", handleRoot);
   server.on("/setServo", handleSetServo);
   server.begin();
-  Serial.println("Web server started");
+  Serial.println("Web server started"); #to print when the web server starts
 
   // Initialize the servo
   ESP32PWM::allocateTimer(0);
